@@ -1,0 +1,10 @@
+cmake
+dlib
+opencv-python
+face-recognition
+unicorn
+Flask
+pillow
+cap
+imutils
+numpy
