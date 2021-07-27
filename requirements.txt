@@ -1,13 +1,31 @@
-cmake
-dlib
-opencv-python
-face-recognition
-gunicorn
-Flask
-pillow
-cap
-imutils
-numpy
-Werkzeug
-zipp
-scikit-learn
+Flask	2.0.1	2.0.1
+Jinja2	3.0.1	3.0.1
+MarkupSafe	2.0.1	2.0.1
+Pillow	8.3.1	8.3.1
+Werkzeug	2.0.1	2.0.1
+cap	0.0.114	0.0.114
+click	8.0.1	8.0.1
+cmake	3.21.0	3.21.0
+colorama	0.4.4	0.4.4
+dlib	19.22.0	19.22.0
+enum34	1.1.10	1.1.10
+face-recognition	1.3.0	1.3.0
+face-recognition-models	0.3.0	
+gunicorn	20.1.0	20.1.0
+importlib-metadata	4.6.1	4.6.1
+imutils	0.5.4	0.5.4
+itsdangerous	2.0.1	2.0.1
+joblib	1.0.1	1.0.1
+nicer	0.0.36	0.0.36
+numpy	1.21.0	1.21.1
+opencv-python	4.5.3.56	4.5.3.56
+pip	21.1.3	21.2.1
+pkt	0.0.21	0.0.21
+pytz	2021.1	2021.1
+scikit-learn	0.24.2	0.24.2
+scipy	1.7.0	1.7.0
+setuptools	57.2.0	57.4.0
+threadpoolctl	2.2.0	2.2.0
+typing	3.7.4.3	3.10.0.0
+typing-extensions	3.10.0.0	3.10.0.0
+zipp	3.5.0	3.5.0
