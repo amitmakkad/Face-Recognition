@@ -17,11 +17,6 @@ This project is made using face-recognition library with opencv and frontend is 
 * ImageBasics - This folder contains all the images which the model can recognise.
 * static - It contains homepage photo and css files which is used in designing.
 
-## Refrences 
-* https://pypi.org/project/face-recognition/
-* https://flask.palletsprojects.com/en/2.0.x/
-* https://getbootstrap.com/docs/5.0/getting-started/introduction/
-
 ## Team Members
 * Amit Kumar Makkad 
 * Bhavya Contractor
