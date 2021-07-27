@@ -1,0 +1,33 @@
+
+h1{
+
+    /* color: forestgreen; */
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+
+
+form{
+
+    border: 1px solid rgb(163, 157, 157);
+
+    border-radius: 5px;
+
+    background-color: whitesmoke;
+
+    text-align: center;
+
+    padding: 20px;
+
+    width: 50%;
+
+    margin-right: 24%;
+
+    margin-left: 24%;
+
+}
+

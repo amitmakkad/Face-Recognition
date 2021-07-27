@@ -1,0 +1,118 @@
+html,
+
+body {
+
+  height: 100%;
+
+  background-color: whitesmoke !important;
+
+}
+
+
+
+body {
+
+  display: flex;
+
+  align-items: center;
+
+  padding-top: 40px;
+
+  padding-bottom: 40px;
+
+  background-color: #f5f5f5;
+
+}
+
+
+
+h1{
+
+  color: dodgerblue;
+
+  font-size: 40px !important;
+
+}
+
+
+
+#my{
+
+  border: solid 1px lightgrey;
+
+  background-color: white;
+
+  border-radius: 8px;
+
+  box-shadow: black 2px;
+
+
+
+}
+
+
+
+.form-signin {
+
+  width: 100%;
+
+  max-width: 330px;
+
+  padding: 15px;
+
+  margin: auto;
+
+}
+
+
+
+.form-signin .checkbox {
+
+  font-weight: 400;
+
+}
+
+
+
+.form-signin .form-floating:focus-within {
+
+  z-index: 2;
+
+}
+
+
+
+.form-signin input[type="email"] {
+
+  margin-bottom: -1px;
+
+  border-bottom-right-radius: 0;
+
+  border-bottom-left-radius: 0;
+
+}
+
+
+
+label{
+
+  color: darkgrey;
+
+}
+
+
+
+.form-signin input[type="password"] {
+
+  margin-bottom: 10px;
+
+  border-top-left-radius: 0;
+
+  border-top-right-radius: 0;
+
+}
+
+
+
+
+
