@@ -1,5 +1,5 @@
 # Face-Recognition
-This project is made using face-recognition library with opencv and frontend is developed using Bootstrap framework and Backened is developed using flask framework. 
+This project is made using face-recognition library with opencv and frontend is developed using Bootstrap framework with some personal customizations and backened is developed using flask framework. 
 
 ## Requirements 
 * This model requires latest version of python.
@@ -16,6 +16,7 @@ This project is made using face-recognition library with opencv and frontend is 
 * app.py - It is a python file which has all the code related to face-recognition model.
 * ImageBasics - This folder contains all the images which the model can recognise.
 * static - It contains homepage photo and css files which is used in designing.
+* Screenshots - It contains screenshots of our model.
 
 ## Refrences 
 * https://pypi.org/project/face-recognition/
@@ -27,7 +28,7 @@ This project is made using face-recognition library with opencv and frontend is 
 * Bhavya Contractor
 * Priyansh Jaseja
 
-## Team Members
+## Mentees
 * Miten Shah
 * Bharat Gupta
 * Anjali Singhal
