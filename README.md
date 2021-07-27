@@ -33,9 +33,27 @@ This project is made using face-recognition library with opencv and frontend is 
 * Anjali Singhal
 
 ## Screenshots of our model
-![dashboard](https://user-images.githubusercontent.com/79632719/127175848-cd337945-b14c-404a-99ce-576766260bfd.png)
-![Homepage](https://user-images.githubusercontent.com/79632719/127175855-d11fb74e-a028-4e6b-a441-e19c24e07180.png)
-![login](https://user-images.githubusercontent.com/79632719/127175859-79d727e0-bbb5-40d7-8d15-1da6f34ea8da.png)
-![recognition](https://user-images.githubusercontent.com/79632719/127175861-269197d1-93b4-4e3c-a70a-f2a119bcf99c.png)
-![uploader](https://user-images.githubusercontent.com/79632719/127175866-2faa8979-78b6-4431-a1f1-4929e03a5642.png)
+* Homepage
+
+![Homepage](https://user-images.githubusercontent.com/79632719/127176176-ee445419-a24c-4a6a-b786-51f22f20c595.png)
+
+* recognition page
+
+![recognition](https://user-images.githubusercontent.com/79632719/127176259-3843bb81-7a4b-4c12-a2ef-7b28066c6e51.png)
+
+* login page
+
+![login](https://user-images.githubusercontent.com/79632719/127176452-0e4b4966-05f2-40e0-8b51-73c016ead6dc.png)
+
+* dashboard page
+
+![dashboard](https://user-images.githubusercontent.com/79632719/127176599-867c12b5-ef10-4dc6-bb59-bbce21dda2ad.png)
+
+* uploader page
+
+![uploader](https://user-images.githubusercontent.com/79632719/127176672-ecaf89ba-246f-4a31-8927-116795b81520.png)
+
+
+
+
 
