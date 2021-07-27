@@ -16,7 +16,6 @@ This project is made using face-recognition library with opencv and frontend is 
 * app.py - It is a python file which has all the code related to face-recognition model.
 * ImageBasics - This folder contains all the images which the model can recognise.
 * static - It contains homepage photo and css files which is used in designing.
-* Screenshots - It contains screenshots of our model.
 
 ## Refrences 
 * https://pypi.org/project/face-recognition/
@@ -28,7 +27,15 @@ This project is made using face-recognition library with opencv and frontend is 
 * Bhavya Contractor
 * Priyansh Jaseja
 
-## Mentees
+## Mentors
 * Miten Shah
 * Bharat Gupta
 * Anjali Singhal
+
+## Screenshots of our model
+![dashboard](https://user-images.githubusercontent.com/79632719/127175848-cd337945-b14c-404a-99ce-576766260bfd.png)
+![Homepage](https://user-images.githubusercontent.com/79632719/127175855-d11fb74e-a028-4e6b-a441-e19c24e07180.png)
+![login](https://user-images.githubusercontent.com/79632719/127175859-79d727e0-bbb5-40d7-8d15-1da6f34ea8da.png)
+![recognition](https://user-images.githubusercontent.com/79632719/127175861-269197d1-93b4-4e3c-a70a-f2a119bcf99c.png)
+![uploader](https://user-images.githubusercontent.com/79632719/127175866-2faa8979-78b6-4431-a1f1-4929e03a5642.png)
+
