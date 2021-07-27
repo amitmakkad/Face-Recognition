@@ -2,9 +2,12 @@ cmake
 dlib
 opencv-python
 face-recognition
-unicorn
+gunicorn
 Flask
 pillow
 cap
 imutils
 numpy
+Werkzeug
+zipp
+scikit-learn
