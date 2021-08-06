@@ -1,4 +1,4 @@
-# Face-Recognition
+# Face Recognition
 <b> Project For IITIsoc </b><br>
 This project is made using face-recognition library with opencv and frontend is developed using Bootstrap framework with some personal customizations and backened is developed using flask framework. 
 
