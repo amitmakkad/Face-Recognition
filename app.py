@@ -44,6 +44,12 @@ def logout():
     session.pop('user')
     return redirect('/dashboard')
 
+path = 'ImageBasics'
+image_names = []
+known_images = []
+listknown=[]
+mylist = os.listdir(path)
+
 @app.route("/uploader",methods=['GET','POST'])
 def uploader():
     if ('user' in session and session['user'] == params['admin_user']):
@@ -51,17 +57,20 @@ def uploader():
             first=request.form.get('fname')
             last=request.form.get('lname')
             f=request.files['file1']
-            f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(first+" "+last+".png")))
+            f.save(os.path.join(app.config['UPLOAD_FOLDER'],secure_filename(first+"_"+last+".png")))
+          
+            path1 = "ImageBasics/" + first +"_"+last + ".png"
+            curImg1 = cv2.imread(path1)
+            known_images.append(curImg1)
+            image_names.append(first+ "_"+last)
+            encode1 = face_recognition.face_encodings(curImg1)[0]
+            listknown.append(encode1)
+          
             return render_template('uploader.html')
         else:
             return render_template('dashboard.html')
 
-path = 'ImageBasics'
-image_names = []
-known_images = []
-known_encodings = []
-listknown=[]
-mylist = os.listdir(path)
+
 
 for cl in mylist:
     curImg = cv2.imread(f'{path}/{cl}')
@@ -70,7 +79,6 @@ for cl in mylist:
 
 for img in known_images:
     encode = face_recognition.face_encodings(img)[0]
-    known_encodings.append(encode)
     listknown.append(encode)
 
 def creating():
