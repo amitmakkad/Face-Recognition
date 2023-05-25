@@ -28,6 +28,31 @@ This project is made using face-recognition library with opencv and frontend is 
 * Bharat Gupta
 * Anjali Singhal
 
+## How to run
+Clone the repo locally
+```
+git clone https://github.com/amitmakkad/Face-Recognition.git
+```
+Now go to repo directory
+```
+cd Face-Recognition/
+```
+Create a Virtual environment and activate it (for linux)
+```
+python -m venv myenv 
+virtualenv myenv   
+source myenv/bin/activate
+```
+Install dependencies
+```
+pip install -r requirements.txt
+```
+Run the app
+```
+python app.py
+```
+ 
+
 ## Screenshots of our model
 * Homepage
 
