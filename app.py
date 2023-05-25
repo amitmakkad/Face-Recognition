@@ -17,7 +17,7 @@ params = {"local_server": "True",
 app.config['UPLOAD_FOLDER']=params['upload_location']
 app.secret_key = 'super-secret-key'
 
-cam = cv2.VideoCapture(0)
+
 
 @app.route("/login")
 def login():
@@ -82,6 +82,7 @@ for img in known_images:
     listknown.append(encode)
 
 def creating():
+    cam = cv2.VideoCapture(0)
     while True:
         s, frame = cam.read()
         if not s:
